@@ -28,7 +28,13 @@
 		</dependency>
 
 	</dependencies>
-
+        <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0s84legnaivz-artifactory-primary-0-releases</name>
+        <url>https://shivaawstest.jfrog.io/artifactory/default-libs-release</url>
+    </repository>
+</distributionManagement>
 	<build>
 
 		<plugins>
