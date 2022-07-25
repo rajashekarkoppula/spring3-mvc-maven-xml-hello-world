@@ -8,8 +8,6 @@ tasks:
         mvn clean package
         # scp -r target/spring3-mvc-maven-xml-hello-world-1.2.war ubuntu@13.232.141.205:/opt/apache-tomcat-8.5.81/webapps
         ls -a 
-        cd webapp
-        ls target
     - docker/build:
          image: shivaawstest.jfrog.io/default-docker 
          push: true
