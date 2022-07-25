@@ -9,7 +9,7 @@ tasks:
         # scp -r target/spring3-mvc-maven-xml-hello-world-1.2.war ubuntu@13.232.141.205:/opt/apache-tomcat-8.5.81/webapps
         ls -a 
     - docker/build:
-         image: shivaawstest.jfrog.io/default-docker:spring
+         image: shivaawstest.jfrog.io/default-docker
          push: true
          #tags: ["latest-v1", "${CI_COMMIT_SHA:0:8}", "${CI_REPO_BRANCH}"]
          tags: ["latest-v1"]
